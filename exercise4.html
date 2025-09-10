@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="margin: 0px;">
+
+    <form  style="color:black;  font-weight: bold; background-color:rgb(209, 196, 209); width: 100%; margin: 0px; padding: 0px;">
+        <header>
+    <h1 style="color: rgb(36, 19, 53); text-align: center;">Yali Ogun Volunteers Registration Form</h1>
+</header>
+        <div style="padding:20px ;border-radius:5px;">
+            <label>First Name:</label><br>
+            <input type="text" name="first name" placeholder="Enter your first name"style="border:1px; padding: 8px; display:block ;border-radius:4px; width: 70%;">
+        </div>
+        <br>
+        <div style="padding: 20px;">
+            <label>Last Name:</label><br>
+            <input type="text" name="firstname"placeholder="Enter your last name" style="border:1px; padding: 8px; display:block ;border-radius:4px; width: 70%;">
+        </div>
+        <br>
+        <div style="padding:20px">
+            <label >Email:</label><br>
+            <input type="email" name="email-input"style="border:1px; padding: 8px; display:block ;border-radius:4px; width: 70%;" placeholder="user@example.com">
+        </div>
+        <br>
+        <div style="padding:20px">
+            <label >Password:</label><br>
+            <input type="password" name="password"style="border:1px; padding: 8px; display:block ;border-radius:4px; width: 70%;" placeholder="***********">
+            
+        </div>
+        <br>
+        <div style="padding:20px">
+            <label >Age:</label><br>
+            <input type="number" name="age" value= "30"style="border:1px; padding: 8px; display:block ;border-radius:4px; width: 70%;">
+        </div>
+        <br>
+            <div style="padding:20px">
+                <label >Gender:</label><br>
+                    <p><label > <input type="radio" name="female" value="female">Female </label> </p>
+                    <p><label > <input type="radio" name="male" value="male">Male </label> </p>
+            </div>
+         <br>
+         <div style="padding:20px">
+            <label>Interest (select what team you would like to volunteer for)</label><br>
+            <p><input type="checkbox">Program Manager</p>
+            <p><input type="checkbox">Registration</p>
+            <p><input type="checkbox">Events and Logistics</p>
+            <p><input type="checkbox">Guest Management</p>
+
+         </div>
+         <br>
+         <div style="padding:20px">
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="country">Nigeria</option>
+            </select>
+         </div>
+            <br>
+            <div style="padding:20px">
+                <button type="submit" style="background-color: rgb(73, 23, 73); color:whitesmoke; padding: 10px; border-radius: 5px; border:none; cursor: pointer;"> Submit Form</button>
+            </div>
+    </form>
+</body>
+</html>
