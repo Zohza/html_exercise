@@ -8,7 +8,7 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
-    color: rgb(21, 47, 61);
+    color: antiquewhite;
     font-size: larger;
 }
 
@@ -22,15 +22,11 @@ header {
 }
 
 body {
-    background-image: url("pexels-tara-winstead-7722654.jpg");
-    background-size: 500px;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed
+    
+   background-color: rgb(21, 21, 63);
+   
 }
-article p {
+article  {
     font-size: larger;
     text-align: center;
 }
@@ -40,3 +36,11 @@ article p {
     font-size:40px;
     text-align: center;
 }
+ article  div{
+    background-color: antiquewhite;
+    padding: 20px;
+ }
+ article div p{
+    color:  rgb(21, 21, 63);
+    font-size: 15px;
+ }
